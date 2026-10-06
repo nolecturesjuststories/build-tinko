@@ -7,3 +7,7 @@ venv/
 .DS_Store
 .ipynb_checkpoints/
 chroma_db/
+
+# Files the-big-day scenes create when you run them
+the-big-day/tinko_diary.json
+the-big-day/tinko.log

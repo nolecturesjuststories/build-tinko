@@ -6,6 +6,8 @@ the friendly AI agent from the YouTube series *Agents, End to End*.
 Every episode = a short story video + a step-by-step build video + **the code in this repo**.
 Everything here is free, and every example is tested before it's released.
 
+👉 **Start here:** watched the short film *Tinko's Big Day*? Run every scene yourself in [`the-big-day/`](the-big-day/).
+
 📺 **Videos:** [No Lectures, Just Stories on YouTube](https://www.youtube.com/@NoLecturesJustStories)
 
 ## The journey
