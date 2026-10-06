@@ -27,7 +27,7 @@ Episodes are added as they're released. Each one has its own folder: `season-x/e
 
 ## Show your build 🛠️
 
-Finished a challenge? Post it in [Discussions → Show your build](https://github.com/nolecturesjuststories/build-tinko/discussions).
+Finished a challenge? Post it in [Discussions → Show and tell](https://github.com/nolecturesjuststories/build-tinko/discussions/categories/show-and-tell). Stuck? Ask in [Q&A](https://github.com/nolecturesjuststories/build-tinko/discussions/categories/q-a).
 The best solutions get a shout-out in the next video.
 
 ## License
