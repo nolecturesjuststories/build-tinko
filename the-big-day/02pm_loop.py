@@ -42,7 +42,7 @@ while not done:
     reply = brain.think(messages)                       # 🧠 THINK
     steps += 1
     if reply.startswith("DONE"):                         # 🛑 stop condition
-        print(f"✅ {reply} (took {steps} trips around the loop)")
+        print(f"✅ {reply} ({steps - 1} actions, then one last think to decide it's done)")
         done = True
     elif steps >= MAX_STEPS:                             # 🛑 safety stop
         print("⚠️ Too many steps. Stopping to stay safe.")
