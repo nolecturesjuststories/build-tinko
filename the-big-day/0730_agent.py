@@ -6,29 +6,31 @@ from toy_brain import ToyBrain
 
 
 # 🧰 Tools are just ordinary Python functions.
-def search_flights(city):
-    return f"Found flight AI-202 from {city}, lands 6 pm"
+# In real life each one calls a real service's API (a flight search, a calendar
+# like Google Calendar, an airline's booking system). Here they return pretend answers.
+def search_flights(date):
+    return "Three flights found: 6 PM, 7 PM, 8 PM"
 
-def check_calendar(day):
-    return f"Calendar is free on {day} evening"
+def calendar_free_times(person):
+    return f"{person} is free after 7 PM"
 
-def book_flight(flight):
-    return f"Booked {flight}! Ticket sent to Grandma"
+def airline_book(flight, seats):
+    return f"Seat 12A confirmed on the {flight} flight ({seats} seat)"
 
 TOOLS = {"search_flights": search_flights,
-         "check_calendar": check_calendar,
-         "book_flight": book_flight}
+         "calendar_free_times": calendar_free_times,
+         "airline_book": airline_book}
 
 # The toy brain's rules: "when I see THIS, my next move is THAT".
 # A real AI figures these steps out by itself.
 brain = ToyBrain(rules={
-    "goal:":       json.dumps({"tool": "search_flights", "city": "Jaipur"}),
-    "found flight": json.dumps({"tool": "check_calendar", "day": "Saturday"}),
-    "is free":     json.dumps({"tool": "book_flight", "flight": "AI-202"}),
-    "booked":      "DONE: Grandma's flight is booked. She lands at 6 pm! 🎉",
+    "goal:":         json.dumps({"tool": "search_flights", "date": "today"}),
+    "flights found": json.dumps({"tool": "calendar_free_times", "person": "Rohan"}),
+    "free after":    json.dumps({"tool": "airline_book", "flight": "8 PM", "seats": 1}),
+    "confirmed":     "DONE: Grandma's flight is booked. Seat 12A, she lands at 8 PM! 🎉",
 })
 
-messages = [{"role": "user", "content": "Goal: book Grandma's flight for Diwali"}]
+messages = [{"role": "user", "content": "Goal: book Grandma's flight for tonight's party"}]
 done = False
 step = 0
 while not done and step < 10:                 # 10 = safety limit

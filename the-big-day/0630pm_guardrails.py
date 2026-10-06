@@ -6,8 +6,9 @@ import sys
 
 from toy_brain import ToyBrain
 
-MAX_PIZZAS = 5          # hard limit: never allowed, no matter what
-MAX_RUPEES = 2000       # soft limit: above this, a human must approve
+# Rule 1: guardrails. Hard limits Tinko can never cross, no matter what.
+MAX_PIZZAS = 5
+MAX_RUPEES = 2000
 
 
 def ask_human(question):
@@ -30,21 +31,24 @@ def run_safely(slip):
         print(f"⛔ BLOCKED: more than {MAX_PIZZAS} pizzas is not allowed.")
         return
     if cost > MAX_RUPEES:
-        if not ask_human(f"₹{cost:,} is over ₹{MAX_RUPEES:,}. Approve?"):
-            print("🚫 Rohan said no. Order cancelled.")
-            return
+        print(f"⛔ BLOCKED: more than ₹{MAX_RUPEES:,} is not allowed.")
+        return
+    # Rule 2: ask first. Paying is risky, so a human says yes before every payment.
+    if not ask_human(f"{count} pizzas, ₹{cost:,}. Approve?"):
+        print("🚫 Rohan said no. Order cancelled.")
+        return
     print("✅", order_pizza(count, cost))
 
 
 brain = ToyBrain(rules={
     "everyone": json.dumps({"tool": "order_pizza", "count": 100, "cost": 50000}),
-    "family": json.dumps({"tool": "order_pizza", "count": 5, "cost": 2500}),
-    "snack": json.dumps({"tool": "order_pizza", "count": 2, "cost": 800}),
+    "fanciest": json.dumps({"tool": "order_pizza", "count": 4, "cost": 2800}),
+    "family": json.dumps({"tool": "order_pizza", "count": 5, "cost": 1200}),
 })
 
-run_safely(brain.reply("Get pizza for everyone in the city!"))   # way too much
-run_safely(brain.reply("Get pizza for the whole family"))        # needs a human
-run_safely(brain.reply("Get a small snack for me and Grandma"))  # fine
+run_safely(brain.reply("Get pizza for everyone in the city!"))       # 100 pizzas: blocked
+run_safely(brain.reply("Get the fanciest pizzas in town"))          # over ₹2,000: blocked
+run_safely(brain.reply("Get pizza for the whole family"))            # within limits: ask Rohan
 
 # 🔁 Make it real: swap ToyBrain() for a real AI (free, local) in Season B.
 # 🎬 Full build: Season B, episode B8 Guardrails

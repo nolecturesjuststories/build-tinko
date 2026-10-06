@@ -1,6 +1,6 @@
 # 🪔 Tinko's Big Day: the code
 
-**Watched the film? Run every scene yourself.**
+**Watched the film? Run every scene yourself.** 🎬 Watch it here: https://youtu.be/DxJQE4YxvY4
 
 One day. Rohan's birthday, on Diwali, with Grandma flying in. Tinko the AI agent helps with
 everything, and every hour of the film teaches one AI-agent idea. Each scene below is one small
