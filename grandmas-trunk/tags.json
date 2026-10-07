@@ -1,0 +1,825 @@
+{
+ "appointment_1962": {
+  "doc_type": "official_letter",
+  "date": "1962-03-20",
+  "year": 1962,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Railway Divisional Office",
+   "Jabalpur"
+  ],
+  "title": "APPOINTMENT LETTER",
+  "amount": null
+ },
+ "bill_1984_12": {
+  "doc_type": "bill",
+  "date": "1985-01-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Bombay",
+   "Goregaon Division",
+   "Goregaon (W)",
+   "Shanti Niwas"
+  ],
+  "title": "Western Suburbs Electricity Board Electricity Bill",
+  "amount": 94.0
+ },
+ "bill_1985_01": {
+  "doc_type": "bill",
+  "date": "1985-02-06",
+  "year": 1985,
+  "people": [],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Goregaon (W)",
+   "Shanti Niwas"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 98.0
+ },
+ "bill_1985_02": {
+  "doc_type": "bill",
+  "date": "1985-03-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 92.0
+ },
+ "bill_1985_03": {
+  "doc_type": "bill",
+  "date": "1985-04-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 108.0
+ },
+ "bill_1985_04": {
+  "doc_type": "bill",
+  "date": "1985-05-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Goregaon (W)"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 122.0
+ },
+ "bill_1985_05": {
+  "doc_type": "bill",
+  "date": "1985-06-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "Western Suburbs Electricity Board Electricity Bill",
+  "amount": 133.0
+ },
+ "bill_1985_06": {
+  "doc_type": "bill",
+  "date": "1985-07-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "Electricity Bill",
+  "amount": 124.0
+ },
+ "bill_1985_07": {
+  "doc_type": "bill",
+  "date": "1985-08-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Goregaon (W)"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 104.0
+ },
+ "bill_1985_08": {
+  "doc_type": "bill",
+  "date": "1985-09-06",
+  "year": 1985,
+  "people": [],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 101.0
+ },
+ "bill_1985_09": {
+  "doc_type": "bill",
+  "date": "1985-10-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Goregaon (W)",
+   "Shanti Niwas"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 99.0
+ },
+ "bill_1985_10": {
+  "doc_type": "bill",
+  "date": "1985-11-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon Division",
+   "Bombay",
+   "Goregaon (W)",
+   "Shanti Niwas"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 103.0
+ },
+ "bill_1985_11": {
+  "doc_type": "bill",
+  "date": "1985-12-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Shanti Niwas"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 99.0
+ },
+ "bill_1985_12": {
+  "doc_type": "bill",
+  "date": "1986-01-06",
+  "year": 1985,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon Division",
+   "Bombay",
+   "Goregaon (W)",
+   "Shanti Niwas"
+  ],
+  "title": "Western Suburbs Electricity Board Electricity Bill",
+  "amount": 101.0
+ },
+ "bill_1986_01": {
+  "doc_type": "bill",
+  "date": "1986-02-06",
+  "year": 1986,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Goregaon (W)"
+  ],
+  "title": "WESTERN SUBURBS ELECTRICITY BOARD ELECTRICITY BILL",
+  "amount": 99.0
+ },
+ "diary_1975_01_26": {
+  "doc_type": "diary",
+  "date": "1975-01-26",
+  "year": 1975,
+  "people": [
+   "Arun",
+   "Meera"
+  ],
+  "places": [],
+  "title": "SUNDAY 26 JANUARY 1975",
+  "amount": null
+ },
+ "diary_1975_06_14": {
+  "doc_type": "diary",
+  "date": "1975-06-14",
+  "year": 1975,
+  "people": [
+   "Arun",
+   "Meera",
+   "Mohan"
+  ],
+  "places": [],
+  "title": "SATURDAY 14 JUNE 1975",
+  "amount": null
+ },
+ "diary_1975_11_03": {
+  "doc_type": "diary",
+  "date": "1975-11-03",
+  "year": 1975,
+  "people": [
+   "Mohan",
+   "Arun",
+   "Meera"
+  ],
+  "places": [],
+  "title": "MONDAY 3 NOVEMBER 1975",
+  "amount": null
+ },
+ "diary_1983_06_25": {
+  "doc_type": "diary",
+  "date": "1983-06-25",
+  "year": 1983,
+  "people": [
+   "Mohan",
+   "Arun",
+   "Meera"
+  ],
+  "places": [],
+  "title": "SATURDAY 25 JUNE 1983",
+  "amount": null
+ },
+ "diary_1983_07_16": {
+  "doc_type": "diary",
+  "date": "1983-07-16",
+  "year": 1983,
+  "people": [
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Pune"
+  ],
+  "title": "SATURDAY 16 JULY 1983",
+  "amount": null
+ },
+ "diary_1983_12_31": {
+  "doc_type": "diary",
+  "date": "1983-12-31",
+  "year": 1983,
+  "people": [
+   "Arun",
+   "Meera"
+  ],
+  "places": [],
+  "title": "SATURDAY 31 DECEMBER 1983",
+  "amount": null
+ },
+ "diary_1991_09_10": {
+  "doc_type": "diary",
+  "date": "1991-09-10",
+  "year": 1991,
+  "people": [
+   "Meera",
+   "Mohan"
+  ],
+  "places": [],
+  "title": "Meera's engagement today",
+  "amount": null
+ },
+ "diary_1991_12_08": {
+  "doc_type": "diary",
+  "date": "1991-12-08",
+  "year": 1991,
+  "people": [
+   "Meera"
+  ],
+  "places": [],
+  "title": "Meera's wedding",
+  "amount": null
+ },
+ "house_tax_1986": {
+  "doc_type": "house_paper",
+  "date": "1986-04-18",
+  "year": 1986,
+  "people": [],
+  "places": [
+   "Greater Bombay",
+   "P/South Ward",
+   "Shanti Niwas",
+   "Goregaon West"
+  ],
+  "title": "Property Tax Receipt",
+  "amount": 212
+ },
+ "invitation_1963_wedding": {
+  "doc_type": "invitation",
+  "date": "1963-05-12",
+  "year": 1963,
+  "people": [
+   "Kamla",
+   "Mohan",
+   "Savitri"
+  ],
+  "places": [
+   "Indore"
+  ],
+  "title": "Wedding invitation",
+  "amount": null
+ },
+ "invitation_1991_meera": {
+  "doc_type": "invitation",
+  "date": "1991-12-08",
+  "year": 1991,
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Meera",
+   "Vikram"
+  ],
+  "places": [
+   "Thane",
+   "Shivaji Park Hall",
+   "Dadar",
+   "Bombay"
+  ],
+  "title": "Marriage invitation",
+  "amount": null
+ },
+ "invitation_1993_arun": {
+  "doc_type": "invitation",
+  "date": "1993-02-14",
+  "year": 1993,
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Arun"
+  ],
+  "places": [
+   "Pune",
+   "Kelkar Wada",
+   "Sadashiv Peth"
+  ],
+  "title": "Wedding invitation for Arun and Anjali",
+  "amount": null
+ },
+ "letter_1962_04": {
+  "doc_type": "letter",
+  "date": "1962-04-04",
+  "year": 1962,
+  "people": [
+   "Amma",
+   "Mohan"
+  ],
+  "places": [
+   "Jabalpur",
+   "Sagar"
+  ],
+  "title": "Railway Office, Jabalpur",
+  "amount": null
+ },
+ "letter_1964_11": {
+  "doc_type": "letter",
+  "date": "1964-11-20",
+  "year": 1964,
+  "people": [
+   "Mohan",
+   "Amma",
+   "Kamla"
+  ],
+  "places": [
+   "Jabalpur",
+   "Bhedaghat"
+  ],
+  "title": "Letter from Kamla to Didi",
+  "amount": null
+ },
+ "letter_1965_08": {
+  "doc_type": "letter",
+  "date": "1965-08-10",
+  "year": 1965,
+  "people": [
+   "Kamla",
+   "Amma",
+   "Arun",
+   "Mohan",
+   "Savitri"
+  ],
+  "places": [
+   "Indore",
+   "Jabalpur"
+  ],
+  "title": "My dearest Kamla",
+  "amount": null
+ },
+ "letter_1968_02": {
+  "doc_type": "letter",
+  "date": "1968-02-16",
+  "year": 1968,
+  "people": [
+   "Amma",
+   "Kamla",
+   "Meera",
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Jabalpur",
+   "railway hospital",
+   "Bombay"
+  ],
+  "title": "Granddaughter has arrived",
+  "amount": null
+ },
+ "letter_1968_03": {
+  "doc_type": "letter",
+  "date": "1968-03-09",
+  "year": 1968,
+  "people": [
+   "Kamla",
+   "Mohan",
+   "Arun",
+   "Meera",
+   "Amma"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Dadar"
+  ],
+  "title": "Letter from Mohan to Kamla",
+  "amount": null
+ },
+ "letter_1971_10": {
+  "doc_type": "letter",
+  "date": "1971-10-28",
+  "year": 1971,
+  "people": [
+   "Amma",
+   "Mohan",
+   "Arun",
+   "Meera",
+   "Kamla"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ],
+  "title": "Diwali kheer note",
+  "amount": null
+ },
+ "letter_1975_03": {
+  "doc_type": "letter",
+  "date": "1975-03-18",
+  "year": 1975,
+  "people": [
+   "Kamla",
+   "Meera",
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Rail Bhavan",
+   "New Delhi",
+   "Delhi",
+   "Karol Bagh"
+  ],
+  "title": "Letter from Mohan to Kamla",
+  "amount": null
+ },
+ "letter_1975_09": {
+  "doc_type": "letter",
+  "date": "1975-09-22",
+  "year": 1975,
+  "people": [
+   "Kamla",
+   "Usha",
+   "Mohan",
+   "Amma",
+   "Savitri"
+  ],
+  "places": [
+   "Indore",
+   "Bhopal"
+  ],
+  "title": "Usha's wedding",
+  "amount": null
+ },
+ "letter_1979_11": {
+  "doc_type": "letter",
+  "date": "1979-11-15",
+  "year": 1979,
+  "people": [
+   "Amma",
+   "Kamla",
+   "Arun",
+   "Meera",
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Shanti Niwas",
+   "registrar's office"
+  ],
+  "title": "Signed papers for Flat 6 in Shanti Niwas",
+  "amount": 48000
+ },
+ "letter_1983_07": {
+  "doc_type": "letter",
+  "date": "1983-07-21",
+  "year": 1983,
+  "people": [
+   "Arun"
+  ],
+  "places": [
+   "Hostel 3",
+   "Pune",
+   "Nagpur",
+   "College of Engineering"
+  ],
+  "title": "Letter from Hostel 3, Pune",
+  "amount": null
+ },
+ "letter_1986_05": {
+  "doc_type": "letter",
+  "date": "1986-05-30",
+  "year": 1986,
+  "people": [
+   "Meera",
+   "Kamla",
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Dadar"
+  ],
+  "title": "Meera writes to Dada about passing Twelfth and applying to teachers' training college",
+  "amount": null
+ },
+ "letter_1990_06": {
+  "doc_type": "letter",
+  "date": "1990-06-12",
+  "year": 1990,
+  "people": [
+   "Arun",
+   "Mohan",
+   "Anjali"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay",
+   "Indore",
+   "Goa"
+  ],
+  "title": "Letter to Arun about his new job",
+  "amount": null
+ },
+ "ration_card_1969": {
+  "doc_type": "ration_card",
+  "date": "1969-01-20",
+  "year": 1969,
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Bombay",
+   "Goregaon",
+   "Railway Colony",
+   "Station Road"
+  ],
+  "title": "FAMILY RATION CARD",
+  "amount": null
+ },
+ "recipe_dal_1966": {
+  "doc_type": "recipe",
+  "date": "1966",
+  "year": 1966,
+  "people": [
+   "Mohan"
+  ],
+  "places": [],
+  "title": "Dal Tadka",
+  "amount": null
+ },
+ "recipe_kheer_1971": {
+  "doc_type": "recipe",
+  "date": "1971",
+  "year": 1971,
+  "people": [],
+  "places": [],
+  "title": "Kheer (the real one)",
+  "amount": null
+ },
+ "recipe_ladoo_1974": {
+  "doc_type": "recipe",
+  "date": "1974",
+  "year": 1974,
+  "people": [],
+  "places": [],
+  "title": "Besan Ladoo",
+  "amount": null
+ },
+ "recipe_paratha_1969": {
+  "doc_type": "recipe",
+  "date": "1969",
+  "year": 1969,
+  "people": [
+   "Arun"
+  ],
+  "places": [],
+  "title": "Aloo Paratha",
+  "amount": null
+ },
+ "recipe_pickle_1982": {
+  "doc_type": "recipe",
+  "date": "1982-05",
+  "year": 1982,
+  "people": [
+   "Amma"
+  ],
+  "places": [],
+  "title": "Mango Pickle (Amma style)",
+  "amount": null
+ },
+ "recipe_poha_1978": {
+  "doc_type": "recipe",
+  "date": "1978",
+  "year": 1978,
+  "people": [
+   "Meera"
+  ],
+  "places": [],
+  "title": "Kanda Poha",
+  "amount": null
+ },
+ "rent_agreement_1972": {
+  "doc_type": "house_paper",
+  "date": "1972-06-01",
+  "year": 1972,
+  "people": [
+   "Dinkar",
+   "Mohan"
+  ],
+  "places": [
+   "Bombay",
+   "Goregaon"
+  ],
+  "title": "Leave and Licence Agreement",
+  "amount": null
+ },
+ "report_arun_1975": {
+  "doc_type": "report_card",
+  "date": "",
+  "year": 1975,
+  "people": [
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Aarey Road",
+   "Goregaon"
+  ],
+  "title": "Aarey Road Municipal School, Goregaon Progress Report · Annual Examination 1974-75",
+  "amount": null
+ },
+ "report_arun_1979": {
+  "doc_type": "report_card",
+  "date": "1978",
+  "year": 1978,
+  "people": [
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Aarey Road",
+   "Goregaon"
+  ],
+  "title": "PROGRESS REPORT · Annual Examination 1978-79",
+  "amount": null
+ },
+ "report_meera_1979": {
+  "doc_type": "report_card",
+  "date": "1978",
+  "year": 1978,
+  "people": [
+   "Meera",
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Aarey Road",
+   "Goregaon"
+  ],
+  "title": "PROGRESS REPORT · Annual Examination 1978-79",
+  "amount": null
+ },
+ "report_meera_1983": {
+  "doc_type": "report_card",
+  "date": "1982-83",
+  "year": 1983,
+  "people": [
+   "Meera",
+   "Mohan"
+  ],
+  "places": [
+   "Aarey Road",
+   "Goregaon"
+  ],
+  "title": "PROGRESS REPORT · Annual Examination 1982-83",
+  "amount": null
+ },
+ "sale_deed_1979": {
+  "doc_type": "house_paper",
+  "date": "1979-11-12",
+  "year": 1979,
+  "people": [
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Andheri",
+   "Bombay",
+   "Goregaon",
+   "Shanti Niwas Co-operative Housing Society",
+   "S. V. Road"
+  ],
+  "title": "Sale Deed",
+  "amount": 48000
+ },
+ "telegram_1965_08": {
+  "doc_type": "telegram",
+  "date": "1965-08-03",
+  "year": 1965,
+  "people": [
+   "Savitri",
+   "Kamla",
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Jabalpur",
+   "Indore",
+   "Snehlataganj"
+  ],
+  "title": "Blessed with son",
+  "amount": null
+ },
+ "telegram_1968_02": {
+  "doc_type": "telegram",
+  "date": "1968-02-14",
+  "year": 1968,
+  "people": [
+   "Mohan",
+   "Meera",
+   "Savitri"
+  ],
+  "places": [
+   "Jabalpur"
+  ],
+  "title": "Blessed with daughter",
+  "amount": null
+ },
+ "telegram_1997_03": {
+  "doc_type": "telegram",
+  "date": "1997-03-14",
+  "year": 1997,
+  "people": [
+   "Mohan",
+   "Arun"
+  ],
+  "places": [
+   "Pune",
+   "Mumbai",
+   "Goregaon",
+   "Mumbai Central"
+  ],
+  "title": "Telegram from Arun to M K Joshi",
+  "amount": null
+ }
+}
