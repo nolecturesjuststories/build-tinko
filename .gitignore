@@ -11,3 +11,7 @@ chroma_db/
 # Files the-big-day scenes create when you run them
 the-big-day/tinko_diary.json
 the-big-day/tinko.log
+
+# Grandma's Trunk: local previews
+grandmas-trunk/trunk_maker/preview/
+grandmas-trunk/.venv/

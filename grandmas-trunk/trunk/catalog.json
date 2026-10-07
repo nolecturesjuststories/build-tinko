@@ -1,0 +1,776 @@
+[
+ {
+  "file": "letter_1968_03.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1968-03-09",
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Bombay",
+   "Jabalpur"
+  ]
+ },
+ {
+  "file": "telegram_1968_02.pdf",
+  "pages": 1,
+  "doc_type": "telegram",
+  "date": "1968-02-14",
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Meera"
+  ],
+  "places": [
+   "Jabalpur"
+  ]
+ },
+ {
+  "file": "recipe_kheer_1971.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1971-10-01",
+  "people": [
+   "Kamla"
+  ],
+  "places": []
+ },
+ {
+  "file": "diary_1975_06_14.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1975-06-14",
+  "people": [
+   "Kamla",
+   "Mohan",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "report_arun_1979.pdf",
+  "pages": 1,
+  "doc_type": "report_card",
+  "date": "1979-04",
+  "people": [
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "letter_1962_04.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1962-04-04",
+  "people": [
+   "Mohan",
+   "Amma"
+  ],
+  "places": [
+   "Jabalpur",
+   "Sagar"
+  ]
+ },
+ {
+  "file": "letter_1964_11.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1964-11-20",
+  "people": [
+   "Kamla",
+   "Savitri",
+   "Mohan"
+  ],
+  "places": [
+   "Jabalpur"
+  ]
+ },
+ {
+  "file": "letter_1965_08.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1965-08-10",
+  "people": [
+   "Savitri",
+   "Kamla",
+   "Arun"
+  ],
+  "places": [
+   "Indore",
+   "Jabalpur"
+  ]
+ },
+ {
+  "file": "letter_1968_02.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1968-02-16",
+  "people": [
+   "Mohan",
+   "Amma",
+   "Meera",
+   "Kamla",
+   "Arun"
+  ],
+  "places": [
+   "Jabalpur"
+  ]
+ },
+ {
+  "file": "letter_1971_10.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1971-10-28",
+  "people": [
+   "Kamla",
+   "Savitri"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ]
+ },
+ {
+  "file": "letter_1975_03.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1975-03-18",
+  "people": [
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Delhi",
+   "Bombay"
+  ]
+ },
+ {
+  "file": "letter_1975_09.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1975-09-22",
+  "people": [
+   "Savitri",
+   "Kamla",
+   "Usha"
+  ],
+  "places": [
+   "Indore"
+  ]
+ },
+ {
+  "file": "letter_1979_11.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1979-11-15",
+  "people": [
+   "Mohan",
+   "Amma",
+   "Kamla",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon",
+   "Bombay"
+  ]
+ },
+ {
+  "file": "letter_1983_07.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1983-07-21",
+  "people": [
+   "Arun",
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Pune"
+  ]
+ },
+ {
+  "file": "letter_1986_05.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1986-05-30",
+  "people": [
+   "Meera",
+   "Arun"
+  ],
+  "places": [
+   "Bombay",
+   "Pune"
+  ]
+ },
+ {
+  "file": "letter_1990_06.pdf",
+  "pages": 1,
+  "doc_type": "letter",
+  "date": "1990-06-12",
+  "people": [
+   "Mohan",
+   "Arun"
+  ],
+  "places": [
+   "Bombay",
+   "Pune"
+  ]
+ },
+ {
+  "file": "telegram_1965_08.pdf",
+  "pages": 1,
+  "doc_type": "telegram",
+  "date": "1965-08-03",
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Arun"
+  ],
+  "places": [
+   "Jabalpur",
+   "Indore"
+  ]
+ },
+ {
+  "file": "telegram_1997_03.pdf",
+  "pages": 1,
+  "doc_type": "telegram",
+  "date": "1997-03-14",
+  "people": [
+   "Arun",
+   "Anjali",
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Mumbai",
+   "Pune"
+  ]
+ },
+ {
+  "file": "recipe_dal_1966.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1966-01-01",
+  "people": [
+   "Kamla"
+  ],
+  "places": []
+ },
+ {
+  "file": "recipe_paratha_1969.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1969-01-01",
+  "people": [
+   "Kamla",
+   "Arun"
+  ],
+  "places": []
+ },
+ {
+  "file": "recipe_ladoo_1974.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1974-01-01",
+  "people": [
+   "Kamla"
+  ],
+  "places": []
+ },
+ {
+  "file": "recipe_poha_1978.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1978-01-01",
+  "people": [
+   "Kamla",
+   "Meera"
+  ],
+  "places": []
+ },
+ {
+  "file": "recipe_pickle_1982.pdf",
+  "pages": 1,
+  "doc_type": "recipe",
+  "date": "1982-05-01",
+  "people": [
+   "Kamla"
+  ],
+  "places": []
+ },
+ {
+  "file": "diary_1975_01_26.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1975-01-26",
+  "people": [
+   "Kamla",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1975_11_03.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1975-11-03",
+  "people": [
+   "Kamla",
+   "Mohan",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1983_06_25.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1983-06-25",
+  "people": [
+   "Kamla",
+   "Mohan",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1983_07_16.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1983-07-16",
+  "people": [
+   "Kamla",
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Pune",
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1983_12_31.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1983-12-31",
+  "people": [
+   "Kamla",
+   "Meera",
+   "Arun"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1991_09_10.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1991-09-10",
+  "people": [
+   "Kamla",
+   "Meera",
+   "Vikram"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "diary_1991_12_08.pdf",
+  "pages": 1,
+  "doc_type": "diary",
+  "date": "1991-12-08",
+  "people": [
+   "Kamla",
+   "Meera",
+   "Vikram",
+   "Mohan",
+   "Arun"
+  ],
+  "places": [
+   "Dadar"
+  ]
+ },
+ {
+  "file": "rent_agreement_1972.pdf",
+  "pages": 1,
+  "doc_type": "house_paper",
+  "date": "1972-06-01",
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ],
+  "rent": 150
+ },
+ {
+  "file": "sale_deed_1979.pdf",
+  "pages": 1,
+  "doc_type": "house_paper",
+  "date": "1979-11-12",
+  "people": [
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Goregaon"
+  ],
+  "price": 48000
+ },
+ {
+  "file": "house_tax_1986.pdf",
+  "pages": 1,
+  "doc_type": "house_paper",
+  "date": "1986-04-18",
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ],
+  "amount": 212
+ },
+ {
+  "file": "report_arun_1975.pdf",
+  "pages": 1,
+  "doc_type": "report_card",
+  "date": "1975-04",
+  "people": [
+   "Arun",
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "report_meera_1979.pdf",
+  "pages": 1,
+  "doc_type": "report_card",
+  "date": "1979-04",
+  "people": [
+   "Meera",
+   "Kamla"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "report_meera_1983.pdf",
+  "pages": 1,
+  "doc_type": "report_card",
+  "date": "1983-04",
+  "people": [
+   "Meera",
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "invitation_1963_wedding.pdf",
+  "pages": 1,
+  "doc_type": "invitation",
+  "date": "1963-05-12",
+  "people": [
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Indore"
+  ]
+ },
+ {
+  "file": "invitation_1991_meera.pdf",
+  "pages": 1,
+  "doc_type": "invitation",
+  "date": "1991-12-08",
+  "people": [
+   "Meera",
+   "Vikram",
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Dadar"
+  ]
+ },
+ {
+  "file": "invitation_1993_arun.pdf",
+  "pages": 1,
+  "doc_type": "invitation",
+  "date": "1993-02-14",
+  "people": [
+   "Arun",
+   "Anjali",
+   "Mohan",
+   "Kamla"
+  ],
+  "places": [
+   "Pune"
+  ]
+ },
+ {
+  "file": "ration_card_1969.pdf",
+  "pages": 1,
+  "doc_type": "ration_card",
+  "date": "1969-01-20",
+  "people": [
+   "Mohan",
+   "Kamla",
+   "Arun",
+   "Meera"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "appointment_1962.pdf",
+  "pages": 1,
+  "doc_type": "official_letter",
+  "date": "1962-03-20",
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Jabalpur"
+  ],
+  "salary": 180
+ },
+ {
+  "file": "bill_1984_12.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-01-06",
+  "billing_month": "1984-12",
+  "amount": 94.0,
+  "units": 121,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_01.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-02-06",
+  "billing_month": "1985-01",
+  "amount": 98.0,
+  "units": 126,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_02.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-03-06",
+  "billing_month": "1985-02",
+  "amount": 92.0,
+  "units": 118,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_03.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-04-06",
+  "billing_month": "1985-03",
+  "amount": 108.0,
+  "units": 141,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_04.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-05-06",
+  "billing_month": "1985-04",
+  "amount": 122.0,
+  "units": 162,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_05.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-06-06",
+  "billing_month": "1985-05",
+  "amount": 133.0,
+  "units": 178,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_06.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-07-06",
+  "billing_month": "1985-06",
+  "amount": 124.0,
+  "units": 165,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_07.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-08-06",
+  "billing_month": "1985-07",
+  "amount": 104.0,
+  "units": 136,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_08.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-09-06",
+  "billing_month": "1985-08",
+  "amount": 101.0,
+  "units": 131,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_09.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-10-06",
+  "billing_month": "1985-09",
+  "amount": 99.0,
+  "units": 129,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_10.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-11-06",
+  "billing_month": "1985-10",
+  "amount": 103.0,
+  "units": 134,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_11.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1985-12-06",
+  "billing_month": "1985-11",
+  "amount": 99.0,
+  "units": 130,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1985_12.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1986-01-06",
+  "billing_month": "1985-12",
+  "amount": 101.0,
+  "units": 132,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ },
+ {
+  "file": "bill_1986_01.pdf",
+  "pages": 1,
+  "doc_type": "bill",
+  "date": "1986-02-06",
+  "billing_month": "1986-01",
+  "amount": 99.0,
+  "units": 128,
+  "people": [
+   "Mohan"
+  ],
+  "places": [
+   "Goregaon"
+  ]
+ }
+]

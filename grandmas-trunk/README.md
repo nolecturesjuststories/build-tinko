@@ -128,6 +128,27 @@ Azure portal → **Resource groups** → `grandmas-trunk-rg` → **Delete resour
 Everything inside goes with it, so nothing keeps running.
 ([Microsoft guide](https://learn.microsoft.com/azure/azure-resource-manager/management/delete-resource-group))
 
+## 🧳 What's in the trunk
+
+[`trunk/`](trunk) holds 55 fictional family papers from 1962 to 1997, drawn with code to look like old scans
+(handwriting, stains, folds, stamps, a slight tilt), so Document Intelligence has real work to do:
+
+| Kind | Count | Layout challenge |
+|---|---|---|
+| Handwritten letters (Grandpa Mohan, Grandma Kamla, her sister Savitri, Arun, Meera) | 12 | three different hands, dates in prose |
+| Electricity bills, Dec 1984 – Jan 1986 | 14 | printed tables; a total needs every bill |
+| Grandma's diary pages (1975, 1983, 1991) | 8 | printed date headings + handwriting |
+| Recipe cards (including the real kheer) | 6 | short lists, turmeric stains |
+| Report cards | 4 | forms: printed labels, handwritten marks |
+| House papers (rent agreement, sale deed, tax receipt) and an appointment letter | 4 | dense typewritten text |
+| Telegrams and wedding invitations | 6 | strips of capitals, decorative type |
+| Ration card | 1 | a household table on a form |
+
+- [`trunk/catalog.json`](trunk/catalog.json): every file with its type, date, people and places.
+- [`trunk/ground_truth.json`](trunk/ground_truth.json): 25 questions with known answers and sources, used in Part 3.
+- [`trunk_maker/`](trunk_maker): the code that draws the trunk (`python trunk_maker/make_trunk.py`). The family,
+  every word and every number are invented; nothing here is a real person's paper.
+
 ## 🗺️ The plan
 
 ```
