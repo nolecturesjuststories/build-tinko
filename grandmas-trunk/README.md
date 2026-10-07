@@ -64,7 +64,7 @@ region**, so clean-up later is a single delete.
 3. **Pricing tier** shows **Standard** (about $250 a month!). Click **Change Pricing Tier → Free → Select**. Check it now
    says **Free** before you continue.
 4. **Review + create** → **Create**.
-5. When it's ready: **Overview** → copy the **Url** into `AZURE_SEARCH_ENDPOINT`. **Settings → Keys** → copy the
+5. When it's ready: **Overview** → copy the **Url** into `AZURE_SEARCH_ENDPOINT`. **Security + networking → Keys** → copy the
    **Primary admin key** into `AZURE_SEARCH_KEY`.
 
 > Only one Free search service is allowed per subscription. Free = 50 MB and 3 indexes: plenty for the trunk.
