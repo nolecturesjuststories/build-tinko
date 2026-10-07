@@ -120,9 +120,10 @@ try:
     reply = client.chat.completions.create(
         model=os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT"],
         messages=[{"role": "user", "content": "Say hello to Grandma in five words."}],
-        max_completion_tokens=20,
+        max_completion_tokens=300,  # gpt-5.x models think first; leave room for the reply
+        reasoning_effort="low",
     )
-    good("Chat works: '" + os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT"] + "' says: " + reply.choices[0].message.content.strip())
+    good("Chat works: '" + os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT"] + "' says: " + (reply.choices[0].message.content or "(an empty reply, but the call worked)").strip())
 except Exception as err:
     bad("Azure OpenAI: " + hint(err))
 

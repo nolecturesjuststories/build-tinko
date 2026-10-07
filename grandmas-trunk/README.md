@@ -6,7 +6,7 @@ exact page. It's a real RAG build with the stack Azure teams use:
 
 - **Azure AI Document Intelligence** reads every layout (handwriting, tables, forms)
 - **Azure AI Search** finds passages by words *and* by meaning
-- **Azure OpenAI in Microsoft Foundry**: `text-embedding-3-small` + `gpt-4.1-mini`
+- **Azure OpenAI in Microsoft Foundry**: `text-embedding-3-small` + `gpt-5.4-mini`
 - **LangGraph** for the assistant's logic, **Streamlit** for the chat screen
 
 All the documents in the trunk are fictional, generated with code, so every answer can be checked.
@@ -45,7 +45,8 @@ region**, so clean-up later is a single delete.
 
 ### 3. Document Intelligence (Free F0)
 
-1. Search **Document Intelligence** → **+ Create**.
+1. Search **Document Intelligence** → **+ Create**. (A note about "registering Cognitive Services" on a new
+   subscription is normal: Azure does it for you.)
 2. **Resource group** `grandmas-trunk-rg`, same **Region**, **Name** e.g. `grandmas-trunk-docintel-<your initials>`
    (it must be unique worldwide).
 3. **Pricing tier: Free F0** (500 pages a month). → **Review + create** → **Create**.
@@ -74,19 +75,24 @@ region**, so clean-up later is a single delete.
 
 These two are pay-per-use, but tiny: building and testing the whole trunk costs cents.
 
-1. Open the [Foundry portal](https://ai.azure.com) and create a **project** (it creates a Foundry resource for you).
-   Put it in `grandmas-trunk-rg` and the same region.
-2. In the project: **Models + endpoints → + Deploy model → Deploy base model**.
-3. Pick **`gpt-4.1-mini`** → **Confirm**. **Deployment type: Global Standard**. Keep the **Deployment name**
-   `gpt-4.1-mini` (our code uses this name) → **Deploy**.
-4. Repeat for **`text-embedding-3-small`** (deployment name `text-embedding-3-small`).
-5. Find the **Azure OpenAI endpoint**, the one that looks like `https://<name>.openai.azure.com/`, and the **key**
-   (project overview, or the Foundry resource's **Keys and Endpoint** page in the Azure portal). Copy them into
-   `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`.
+1. Open the [Foundry portal](https://ai.azure.com) and sign in with the same account. The first time, Foundry creates
+   a **project** for you (on a Foundry resource). If it asks where, pick `grandmas-trunk-rg`. The region it picks can
+   differ from your other services (ours landed in East US 2): that's fine.
+2. Top menu **Build → Models → Deployments → Deploy a base model**.
+3. Search **`gpt-5.4-mini`** → open it → **Deploy → Custom settings**.
+   - **Deployment name:** keep `gpt-5.4-mini` (our code uses this name).
+   - **Deployment type:** **Global Standard**. If you see **"Insufficient quota"** (common on new free accounts),
+     switch to **Data Zone Standard**: same pay-per-use price, your data is just processed in your region's zone.
+   - **Priority processing:** leave it **off** (it costs more). → **Deploy**.
+4. Repeat for **`text-embedding-3-small`** (deployment name `text-embedding-3-small`, Global Standard).
+5. **Build → Models → Deployments** should now list both as **Succeeded**.
+6. Copy the **Azure OpenAI endpoint** (the one that looks like `https://<name>.openai.azure.com`, shown on the project
+   **Home** page) and the **API key** (same page, copy button) into `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`.
 
-> If a model isn't offered in your region, create the project in a region that has it
-> ([models and regions](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/models)).
-> ([Microsoft guide: deploy models](https://learn.microsoft.com/azure/ai-foundry/foundry-models/how-to/deploy-foundry-models))
+> Why `gpt-5.4-mini` and not `gpt-4o-mini` / `gpt-4.1-mini`? Those older minis are marked *Deprecated* / *Legacy*
+> in Foundry and will be retired; `gpt-5.4-mini` is *Generally available*.
+> ([models and regions](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/models) ·
+> [Microsoft guide: deploy models](https://learn.microsoft.com/azure/ai-foundry/foundry-models/how-to/deploy-foundry-models))
 
 ### 6. Python, packages and your `.env`
 
