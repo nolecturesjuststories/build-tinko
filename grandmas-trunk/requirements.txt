@@ -1,0 +1,12 @@
+# Grandma's Trunk: every package pinned, so the code works the same for everyone.
+# Install once:  pip install -r requirements.txt
+
+# Part 1: read every layout, build the index
+azure-ai-documentintelligence==1.0.2   # reads scans, handwriting, tables, forms
+azure-search-documents==12.0.0         # the search index (keyword + vector)
+openai==3.26.0                         # embeddings + chat, via Azure (Microsoft Foundry)
+python-dotenv==1.2.4                   # loads your keys from .env
+
+# Part 2: the assistant
+langgraph==1.2.14                      # route → retrieve → grade → answer, as a graph
+streamlit==1.65.0                      # the chat screen
