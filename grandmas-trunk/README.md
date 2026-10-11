@@ -160,3 +160,43 @@ trunk (scans) → read (Document Intelligence) → tag → cut into passages →
 - **Part 3: Make it trustworthy**: evals, "I don't know" answers, costs, a free local path (pgvector)
 
 *No Azure account? Part 3 shows a free path with pgvector in Docker.*
+
+## 🤖 Part 2: the assistant (an AI agent)
+
+Part 1 built the search. Part 2 turns it into an **agent** that answers Grandma in one sentence, with proof:
+the LLM picks a tool, search finds pages, the LLM checks every page, rewrites the question if nothing fits, and
+calls a small **.NET API** when it needs exact numbers.
+
+```
+question → route (the LLM picks a tool)
+              ├─ search_trunk → retrieve (Azure AI Search) → grade each page ──passed──▶ answer, with [source, page]
+              │                     ▲                            │ none passed
+              │                     └──── rewrite (max 2 tries) ◀┘
+              └─ bills_sum / bills_highest / bills_list → the .NET API runs SQL → answer
+```
+
+| Script | What it does |
+|---|---|
+| [`clients.py`](clients.py) | **LangChain** plugs: the LLM (gpt-5.4-mini) and the embedding model, plus Azure AI Search |
+| [`agent_tools.py`](agent_tools.py) | the agent's **tools**: `search_trunk` (the RAG tool) and the three bills tools (HTTP calls to the .NET API) |
+| [`nodes/`](nodes) | the steps: `route.py` · `retrieve.py` · `grade.py` · `rewrite.py` · `answer.py` · `call_api.py` |
+| [`graph.py`](graph.py) | **LangGraph**: the plan (steps, arrows, the retry limit) and the state passed between steps |
+| [`load_bills.py`](load_bills.py) | copies the bill amounts the LLM labelled in Part 1 into SQLite: one row per bill |
+| [`TrunkTools/`](TrunkTools) | the **.NET API** (ASP.NET Core, .NET 10): `GET /bills/sum`, `/bills/highest`, `/bills`, each one SQL query |
+| [`app.py`](app.py) | the **Streamlit** chat, with a Sources box under every answer |
+| [`demos.py`](demos.py) | the "before" experiments from the video: no pages, one search, one prompt |
+| [`evals.py`](evals.py) | the 25-question exam (used in Part 3) |
+
+**Run it** (after Part 1, with your `.env` filled in; also needs the [.NET 10 SDK](https://dotnet.microsoft.com/download)):
+
+```bash
+pip install -r requirements.txt
+python load_bills.py                    # the bills table (TrunkTools/trunk.db)
+dotnet run --project TrunkTools         # the .NET API on http://localhost:5085 (leave it running)
+python graph.py "When did Grandpa get his first job?"   # watch every step of the agent
+streamlit run app.py                    # the chat
+```
+
+What you should see: *"Grandpa got his first job on Monday, 2nd April 1962… [letter_1962_04.pdf, p.1]"*, and for
+*"How much did we spend on electricity in 1985?"* the agent calls `GET /bills/sum?year=1985` and answers
+**Rs 1,378 from 13 bills**. Thirteen bills in one year? That's not a typo in this README: it's the bug Part 3 finds. 😉

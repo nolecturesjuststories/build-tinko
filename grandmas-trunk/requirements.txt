@@ -8,5 +8,7 @@ openai==3.26.0                         # embeddings + chat, via Azure (Microsoft
 python-dotenv==1.2.4                   # loads your keys from .env
 
 # Part 2: the assistant
-langgraph==1.2.14                      # route → retrieve → grade → answer, as a graph
+langgraph==1.2.14                      # the agent's plan: route → retrieve → grade → answer, as a graph
+langchain-openai==1.7.0                # LangChain's plug to the LLM (gpt-5.4-mini) and the embedding model
+httpx==0.28.1                          # calls our .NET API (TrunkTools) for the bills tools
 streamlit==1.65.0                      # the chat screen

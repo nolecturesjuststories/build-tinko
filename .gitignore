@@ -16,3 +16,9 @@ the-big-day/tinko.log
 grandmas-trunk/trunk_maker/preview/
 grandmas-trunk/.venv/
 grandmas-trunk/markdown/*.json
+
+# Grandma's Trunk: run outputs (answers, exam results)
+grandmas-trunk/outputs/
+grandmas-trunk/TrunkTools/bin/
+grandmas-trunk/TrunkTools/obj/
+grandmas-trunk/TrunkTools/trunk.db
